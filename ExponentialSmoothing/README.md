@@ -36,14 +36,14 @@ Also, a pattern of constant peaks and valleys can be easily observed, which is t
 
 - Simple Exponential Smoothing
 
-The simple exponential smoothing model is a technique used in time series analysis to predict future values based on historical data. The idea behind exponential smoothing is that the predicted value is a weighted combination of historical values, with weights that decrease exponentially as the data gets older.
+	The simple exponential smoothing model is a technique used in time series analysis to predict future values based on historical data. The idea behind exponential smoothing is that the predicted value is a weighted combination of historical values, with weights that decrease exponentially as the data gets older.
 
 - Holt Exponential Smoothing
 
-The Holt Linear Exponential Smoothing model, also known as Holt, is an extension of the Simple Exponential Smoothing model (SES) that allows for capturing trends in the data. The model is called "linear" because it uses a linear function to estimate the trend.
+	The Holt Linear Exponential Smoothing model, also known as Holt, is an extension of the Simple Exponential Smoothing model (SES) that allows for capturing trends in the data. The model is called "linear" because it uses a linear function to estimate the trend.
 
-Holt-Winters Exponential Smoothing
+- Holt-Winters Exponential Smoothing
 
-The Holt-Winters Exponential Smoothing model is an extension of the Holt model to include seasonal components. It is used to make predictions for time series with trend and seasonality.
+	The Holt-Winters Exponential Smoothing model is an extension of the Holt model to include seasonal components. It is used to make predictions for time series with trend and seasonality.
 
-The Holt-Winters model can be used in two variations: additive and multiplicative. The additive variation is used when the magnitude of the seasonal variation is constant, while the multiplicative variation is used when the magnitude of the seasonal variation is proportional to the level of the series. The choice between the two variations depends on the analysis of the time series and the characteristics of the seasonality.
+	The Holt-Winters model can be used in two variations: additive and multiplicative. The additive variation is used when the magnitude of the seasonal variation is constant, while the multiplicative variation is used when the magnitude of the seasonal variation is proportional to the level of the series. The choice between the two variations depends on the analysis of the time series and the characteristics of the seasonality.
