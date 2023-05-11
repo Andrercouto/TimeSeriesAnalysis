@@ -20,4 +20,5 @@ Understanding the trend and seasonality of a series is important for choosing th
 
 Decomposing the following randomly generated time series into trend and seasonality terms:
 
+![alt text](https://github.com/Andrercouto/TimeSeriesAnalysis/blob/main/Img/rand.png?raw=true)
 
